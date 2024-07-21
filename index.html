@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Bootstrap 5 Tutorial</h1>
+            <ul>
+                <li><a href="#BS5_HOME">BS5 HOME</a></li>
+                <li><a href="#BS5_Get_Started">BS5 Get Started</a></li>
+                <li><a href="#BS5_Grid_Basic">BS5 Grid Basic</a></li>
+                <li><a href="#BS5_Colors">BS5 Colors</a></li>
+                <li><a href="#BS5_Images">BS5 Images</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="BS5_HOME">
+            <h2>HOME</h2>
+            <div class="home-container">
+                <p>Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites.</p>
+                <p>Bootstrap 5 is completely free to download and use!</p>
+                <a href="#BS5_Get_Started" class="cta-button">Start learning Bootstrap 5 now>></a>
+            </div>
+        </section>
+        <section id="BS5_Get_Started">
+            <h2>Bootstrap 5 Get Started</h2>
+            <h3>What is Bootstrap?</h3>
+            <ul>
+                <li>Bootstrap is a free front-end framework for faster and easier web development</li>
+                <li>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</li>
+                <li>Bootstrap also gives you the ability to easily create responsive designs</li>
+            </ul>
+            <div class="started">
+                <h4>What is Responsive Web Design?</h4>
+                <p>Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.</p>
+            </div>
+        </section>
+        <section class="basic" id="BS5_Grid_Basic">
+            <h2>Bootstrap 5 Grids</h2>
+            <h3>Bootstrap 5 Grid System</h3>
+            <p1>Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.</p1>
+            <p>If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</p>
+            <div class="grid">
+                <table class="table grid" border="1">
+                    <tbody>
+                        <tr>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                            <td>span 1</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">&nbsp;span4</td>
+                            <td colspan="4">&nbsp;span4</td>
+                            <td colspan="4">&nbsp;span4</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">span 4</td>
+                            <td colspan="8">span 8</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">span 6</td>
+                            <td colspan="6">span 6</td>
+                        </tr>
+                        <tr>
+                            <td colspan="12">span 12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="color" id="BS5_Colors">
+            <h2>BS5 Colors</h2>
+            <h3>Text Colors</h3>
+            <p>Bootstrap 5 has some contextual classes that can be used to provide "meaning through colors".</p>
+            <p>The classes for text colors are: <span style="color: red;"> .text-muted</span>, <span style="color: red;">.text-primary</span>, <span style="color: red;">.text-success</span>, <span style="color: red;">.text-info</span>, <span style="color: red;">.text-warning</span>, <span style="color: red;">.text-danger</span>, <span style="color: red;">.text-secondary</span>, <span style="color: red;">.text-white</span>, <span style="color: red;">.text-dark</span>, <span style="color: red;">.text-body</span> (default body color/often black) and <span style="color: red;"> .text-light </span>:</p>
+            <div class="color-container">
+                <h3>Example</h3>
+                <div class="container">
+                    <p class="text-primary">This text is important.</p>
+                    <p class="text-success">This text indicates success.</p>
+                    <p class="text-info">This text represents some information.</p>
+                    <p class="text-warning">This text represents a warning.</p>
+                    <p class="text-danger">This text represents danger.</p>
+                    <p class="text-secondary">Secondary text.</p>
+                    <p class="text-dark">This text is dark grey.</p>
+                    <p class="text-body">Default body color (often black).</p>
+                    <p class="text-light">This text is light grey (on white background).</p>
+                </div>
+            </div>
+        </section>
+        <section id="BS5_Images">
+            <h2>BS5 Images</h2>
+            <h3>Image Shapes</h3>
+            <div class="image-container">
+                <div class="image-item">
+                    <h3>Rounded Corners</h3>
+                    <img src="images/city.png" class="rounded" alt="city" width="250" height="240">
+                </div>
+                <div class="image-item">
+                    <h3>Circle</h3>
+                    <img src="images/eifel-tower.png" class="rounded-circle" alt="tower" width="250" height="240">
+                </div>
+                <div class="image-item">
+                    <h3>Thumbnail</h3>
+                    <img src="images/Quaid.png" class="img-thumbnail" alt="Quaid" width="250" height="240">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
